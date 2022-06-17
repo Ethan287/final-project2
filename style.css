@@ -1,0 +1,13 @@
+nav{
+    background-image: url(https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0YXJzJTIwYXQlMjBuaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+}
+h1{
+    color: rgb(178, 230, 198);
+}
+h4{
+    color: antiquewhite;
+}

@@ -1,13 +1,31 @@
 nav{
-    background-image: url(https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0YXJzJTIwYXQlMjBuaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60);
+    background-image: url(https://s1.1zoom.me/big3/393/Milky_Way_Mountains_Sky_442965.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
+    background-position: top;
     text-align: center;
+    height: 160px;
+    position: sticky;
+    top: 0;
 }
 h1{
     color: rgb(178, 230, 198);
+    text-align: center;
+    font-size: 65px;
 }
-h4{
+h2{
+    color: black;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+h3{
+    font-family: "Times New Roman", Times, serif;
+}
+i{
+    color: rgb(121, 119, 119);
+    float: right;
+} 
+a{
     color: antiquewhite;
 }
+

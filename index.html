@@ -11,35 +11,135 @@
           crossorigin="anonymous"/>
         <script src="https://kit.fontawesome.com/acd1e76438.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css" />
-      </head>
+    </head>
       <body>
         <nav>
           <h1>Camping Buddies</h1>
-          <h4>Must Visit National Parks!</h4>
+          <p class="nav"><a href="https://www.instagram.com/yosemitenps/"><i class="fa-brands fa-instagram"></i>instagram</a></p>
+          <p class="nav"><a href="https://www.facebook.com/JoshuaTreeNPS"><i class="fa-brands fa-facebook-square"></i>facebook</a></p>
+          <p class="nav"><a href="https://twitter.com/BigSur"><i class="fa-brands fa-twitter"></i>twitter</a></p>
         </nav> 
+        <h2>Must Visit National Parks!</h2>
           <div class="container-fluid">
             <div class="row">
               <div class="col-sm-4">
+                <h3>Yosimite National park</h3>
                 <i class="fa-solid fa-trees"></i>
-                <h3>Yosimite National Park</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                <p>Yosemite National Park is an American national park in California, surrounded on the southeast by Sierra National Forest and on the northwest by Stanislaus National Forest. The park is managed by the National Park Service and covers an area of 759,620 acres and sits in four counties – centered in Tuolumne and Mariposa, extending north and east to Mono and south to Madera County. Designated a World Heritage Site in 1984, Yosemite is internationally recognized for its granite cliffs, waterfalls, clear streams, giant sequoia groves, lakes, mountains, meadows, glaciers, and biological diversity. Almost 95 percent of the park is designated wilderness. Yosemite is one of the largest and least fragmented habitat blocks in the Sierra Nevada, and the park supports a diversity of plants and animals.</p>
               </div>
               <div class="col-sm-4">
                 <h3>Pfeiffer Big Sur State Park</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                <i class="fa-duotone fa-water"></i>
+                <p>Big Sur is a rugged and mountainous section of the Central Coast of California between Carmel and San Simeon, where the Santa Lucia Mountains rise abruptly from the Pacific Ocean. It is frequently praised for its dramatic scenery. Big Sur has been called the "longest and most scenic stretch of undeveloped coastline in the contiguous United States", a sublime "national treasure that demands extraordinary procedures to protect it from development", and "one of the most beautiful coastlines anywhere in the world, an isolated stretch of road, mythic in reputation". The views, redwood forests, hiking, beaches, and other recreational opportunities have made Big Sur a popular destination for about 7 million people who live within a day's drive and visitors from across the world.</p>
               </div>
               <div class="col-sm-4">
-                <h3>Joshua Tree National Park</h3>        
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                <h3>Joshua Tree National Park</h3>
+                <i class="fa-regular fa-cactus"></i>
+                <p>Joshua Tree National Park is an American national park in southeastern California, east of San Bernardino and Los Angeles and north of Palm Springs. It is named after the Joshua trees native to the Mojave Desert. Originally declared a national monument in 1936, Joshua Tree was redesignated as a national park in 1994 when the U.S. Congress passed the California Desert Protection Act. Encompassing a total of 795,156 acres – slightly larger than the state of Rhode Island – the park includes 429,690 acres of designated wilderness. Straddling San Bernardino and Riverside Counties, the park includes parts of two deserts, each an ecosystem whose characteristics are determined primarily by elevation: the higher Mojave Desert and the lower Colorado Desert. The Little San Bernardino Mountains traverse the southwest edge of the park.</p>
               </div>
             </div>
           </div>
-        <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1>Beautiful Nature!</h1>
+                <div
+                  id="carouselSlidesOnly"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="https://th.bing.com/th/id/R.533a2d804d7ea9ea18f0647d9b229711?rik=kDTfHQH3XANW0Q&riu=http%3a%2f%2fmoneyinc.com%2fwp-content%2fuploads%2f2016%2f11%2fBig-Sur.jpg&ehk=Nm%2fahyVsD0Iz3HClhlpDRQrVd%2fTjVK5GrqhacKVyIzs%3d&risl=&pid=ImgRaw&r=0"
+                        alt="First slide"
+                        class="d-block w-100"
+                        height="800px"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="https://i1.wp.com/beautifulplacestovisit.com/wp-content/uploads/2012/02/Yosemite_California_02.jpg"
+                        alt="Second slide"
+                        class="d-block w-100"
+                        height="800px"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="https://travelerdreams.com/wp-content/uploads/2018/11/james-carol-lee-1170395-unsplash.jpg"
+                        alt="Third slide"
+                        class="d-block w-100"
+                        height="800px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container m-3">
+              <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                  <p class="display-4">Give us more trip ideas!</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div
+                    class="d-flex align-items-center flex-direction-column justify-content-center"
+                  >
+                    <form class="m-5">
+                      <div class="mb-3">
+                        <label for="email" class="form-label"
+                          >Email
+                          <span class="d-none d-sm-inline">Address</span></label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          aria-describedby="emailHelp"
+                        />
+                      <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea
+                          type="password"
+                          class="form-control"
+                          id="message"
+                        ></textarea>
+                      </div>
+                      <div class="col-12">
+                        <div class="d-flex flex-column">
+                          <button type="submit" class="btn btn-primary mx-auto">
+                            Submit
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+                <div class="row bg-dark text-white">
+                    <div class="col-6 p-2">
+                      <iframe
+                        width="100%"
+                        height="100%" 
+                        src="https://www.google.com/maps/place/Big+Sur,+CA+93920/@36.269462,-121.8217342,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x808de8a7780e4d77:0x37e8d859caefac61!2sBig+Sur,+CA!3b1!8m2!3d36.2704233!4d-121.8080556!3m4!1s0x808d8ffb4da45855:0x16a5d7c7f1b7e362!8m2!3d36.270435!4d-121.8079948"
+                        width="600"
+                        height="450"
+                        style="border: 0"
+                      ></iframe>
+                    </div>
+            
+                    <div class="col-6 p-2">
+                      <p class="lead">Plan your trip soon!</p>
+                      <p>yosemite</p>
+                      <p>california</p>
+                    </div>
+              </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
       </body>
